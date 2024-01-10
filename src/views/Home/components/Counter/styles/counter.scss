@@ -1,0 +1,22 @@
+.counter {
+  width: 320px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  h2 {
+    margin-bottom: 16px;
+  }
+
+  .counter-box {
+    .counter-button {
+      width: 64px;
+      height: 32px;
+      cursor: pointer;
+    }
+
+    .counter-value {
+      padding: 0 16px;
+    }
+  }
+}
